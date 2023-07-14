@@ -1,0 +1,11 @@
+/* Navbar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  
+.navItem {
+    margin-left: 3rem;
+}
