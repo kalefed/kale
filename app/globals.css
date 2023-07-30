@@ -1,27 +1,3 @@
-body {
-  padding: 10px 10px 60px;
-  max-width: 680px;
-  margin: 0 50px 0 50px;
-  background-color: #04423F;;
-}
-
-p {
-  font-family: 'Outfit', sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  color: #FFF;
-}
-
-h1 {
-  font-family: Crimson Text;
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 700;
-  color: #FFF;
-}
-
-a {
-  color: #FFF;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
