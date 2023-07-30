@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+/* Custom global styles */
+html, body {
+    padding-left: 50px;
+    background-color: #6D413E;
+  }
+
+/* Custom rounded edges */
+.rounded-tl-custom {
+    border-top-left-radius: 123px;
+  }
+  
+  .rounded-bl-custom {
+    border-bottom-left-radius: 123px;
+  }

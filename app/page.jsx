@@ -1,9 +1,11 @@
+import HomeIntro from "./components/HomeIntro";
+import HomeImage from "./components/HomeImage";
 
 export default function Home() {
-
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Hello, Next.js!</h1>
+    <div className="flex h-screen">
+      <HomeIntro />
+      <HomeImage />
     </div>
   );
 }
