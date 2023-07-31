@@ -15,9 +15,9 @@ module.exports = {
         mono: ['var(--font-anonymous_pro)'],
       },
       textColor: {
-        'primary': '#E3E3E3',
-        'secondary': '#ABAB7B',
-        'danger': '#CFA0B5',
+        'primary': '#FFFFFF',
+        'secondary': '#92924C',
+        'danger': '#6F3A36',
       }
     },
   },

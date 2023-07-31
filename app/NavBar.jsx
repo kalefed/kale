@@ -1,18 +1,16 @@
 import Link from 'next/link'
-import styles from './Navbar.module.css';
 
 export default function NavBar() {
   return (
-    <div className="">
+    <nav className="l-1/2 pl-11 sticky top-0 h-10">
       <div className="flex justify-between p-4">
-        <ul className="flex space-x-10 font-mono text-xl text-danger uppercase">
-          <li className="hover:text-primary"><Link href="/">home</Link></li>
-          <li className="hover:text-primary"><Link href="/about">about</Link></li>
-          <li className="hover:text-primary"><Link href="/education">education</Link></li>
-          <li className="hover:text-primary"><Link href="/experience">experience</Link></li>
-          <li className="hover:text-primary"><Link href="/toptens">my top tens</Link></li>
+        <ul className="flex space-x-10 font-mono text-x">
+          <li><Link className='text-danger uppercase hover:text-primary active:text-primary' href="#"  >home</Link></li>
+          <li><Link className="text-danger uppercase hover:text-primary active:text-primary" href="#about">about</Link></li>
+          <li><Link className="text-danger uppercase hover:text-primary active:text-primary" href="#education">education</Link></li>
+          <li><Link className="text-danger uppercase hover:text-primary active:text-primary" href="#projects">projects</Link></li>
         </ul>
       </div>
-    </div>
+    </nav>
   )
 }
