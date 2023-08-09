@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import profile from 'public/profile.png'
+import profile2 from 'public/profile2.jpg'
 
 export default function HomeImage() {
 

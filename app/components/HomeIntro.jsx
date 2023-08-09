@@ -7,10 +7,10 @@ export default function HomeIntro() {
     <div className="flex flex-col w-1/2">
       <div className="flex flex-col justify-center h-screen">
       <div className="flex flex-col h-1/3">
-        <h2 className="text-4xl font-mono font-bold text-secondary mb-4">Hi, My name is Kaleigh. I'm</h2>
+        <h2 className="text-4xl font-mono font-bold text-white mb-4">Hi, My name is Kaleigh. I'm</h2>
         <div className="relative">
           <TypeAnimation
-            className="text-6xl font-sans font-bold uppercase text-primary absolute top-0 left-0"
+            className="text-6xl font-sans uppercase text-white absolute top-0 left-0"
             sequence={[
               // Same substring at the start will only be typed out once, initially
               "an aspiring frontend developer",

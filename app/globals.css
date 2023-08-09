@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 /* Custom global styles */
 html, body {
-    background-color: #E2CFD5;
+  background: rgb(231,207,204);
+  background: linear-gradient(90deg, rgba(231,207,204,1) 22%, rgba(214,197,171,1) 40%, rgba(174,174,94,1) 66%);
   }
 
 /* Custom rounded edges */

@@ -5,13 +5,15 @@ const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
+  weight: '400'
+
 })
 
 const anonymous_pro = Anonymous_Pro({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-anonymous_pro',
-  weight: '700'
+  weight: '400'
 })
 
 export default function RootLayout({ children }) {
